@@ -35,7 +35,7 @@ public class quicksort
 	public static void main(String[] args)
 	{
 		int n = 10;
-		int[] a = new int[10];
+		int[] a = new int[n];
 		for (int i = 0; i < a.length ; i++) {
 			a[i] = (int)(Math.random() * 100);
 		}
